@@ -28,17 +28,12 @@
     <link href="css/editor.css" rel="stylesheet">
     <link href="css/docs.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <![endif]-->
+    
     <!-- Fav and touch icons -->
     <link rel="shortcut icon" href="img/favicon.png">
 
     <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
-    <!--[if lt IE 9]>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <![endif]-->
+   
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.js"></script>
     <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
