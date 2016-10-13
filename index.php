@@ -854,98 +854,13 @@
 					<input id="filebutton" name="filebutton" class="input-file" type="file">
 					</div>
                   </div>
-				  
-                  <!--BUTTON-->
-
-                  <div class="box box-element ui-draggable">
-                    <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
-                    <span class="configuration">
-                      <span class="btn-group">
-                        <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">Styles <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li class="active"><a href="#" rel="">Default</a></li>
-                          <li class=""><a href="#" rel="btn-primary">Primary</a></li>
-                          <li class=""><a href="#" rel="btn-info">Info</a></li>
-                          <li class=""><a href="#" rel="btn-success">Success</a></li>
-                          <li class=""><a href="#" rel="btn-warning">Warning</a></li>
-                          <li class=""><a href="#" rel="btn-danger">Danger</a></li>
-                          <li class=""><a href="#" rel="btn-inverse">Inverse</a></li>
-                          <li class=""><a href="#" rel="btn-link">Link</a></li>
-                        </ul>
-                      </span>
-                      <span class="btn-group">
-                        <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">Size <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li class=""><a href="#" rel="btn-large">Large</a></li>
-                          <li class="active"><a href="#" rel="">Default</a></li>
-                          <li class=""><a href="#" rel="btn-small">Small</a></li>
-                          <li class=""><a href="#" rel="btn-mini">Mini</a></li>
-                        </ul>
-                      </span>
-                      <a class="btn btn-mini" href="#" rel="btn-block">Block</a> <a class="btn btn-mini" href="#" rel="disabled">Disabled</a>
-                    </span>
-                    <div class="preview">Button</div>
-                    <div class="view">
-                      <button class="btn" type="button" contenteditable="true">Button</button>
-                    </div>
-                  </div>
-
-                  <!--BTN-DROPDOWN-->
-
-                  <div class="box box-element ui-draggable">
-                    <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span> <span class="configuration"><button type="button" class="btn btn-mini" data-target="#editorModal" role="button" data-toggle="modal">Editor</button> <a class="btn btn-mini" href="#" rel="dropup">Dropup</a> </span>
-                    <div class="preview">Button Dropdowns</div>
-                    <div class="view">
-                      <div class="btn-group">
-                        <button class="btn btn-default" contenteditable="true">Action</button>
-                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle"><span class="caret"></span></button>
-                        <ul class="dropdown-menu" contenteditable="true">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another Action</a></li>
-                          <li><a href="#">Something Else here</a></li>
-                          <li class="divider"></li>
-                          <li class="dropdown-submenu">
-                            <a tabindex="-1" href="#">More Option</a>
-                            <ul class="dropdown-menu">
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Another Action</a></li>
-                              <li><a href="#">Something Else here</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!--BTN-TOOLBAR-->
-
-                  <div class="box box-element ui-draggable">
-                    <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a>
-                    <span class="drag label"><i class="icon-move"></i>Drag</span>
-                    <div class="preview">Button Toolbar</div>
-                    <div class="view">
-                      <div class="btn-toolbar">
-                        <button class="btn btn-default">Back</button>
-                        <button class="btn btn-primary">Continue</button>
-                        <span class="column" style="height: 40px, width: 200px, background-color: green">bla</span>
-                      </div>
-                    </div>
-                  </div>
-
-
+                   <?php AutoIncludeFiles('menu/items/forms'); ?>
+              
                 </li>
               </ul>
-
               
-              <?php include 'menu/components.php'; ?>  
+              <?php AutoIncludeFiles('menu'); ?>
               
-              <ul class="nav nav-list accordion-group">
-                <?php include 'menu/javascript.php'; ?>
-                <li style="display: none;" class="boxes mute" id="elmJS">
-                  <?php AutoIncludeFiles('menu/items/javascript'); ?>                  
-                </li>
-              </ul>
-
             </div>
           </div>
           <!--/span-->

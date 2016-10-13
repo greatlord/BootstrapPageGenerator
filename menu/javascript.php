@@ -1,3 +1,4 @@
+<ul class="nav nav-list accordion-group">
 <li class="nav-header">
                   <i class="icon-plus icon-white"></i> JAVASCRIPT
                   <div class="pull-right popover-info">
@@ -9,4 +10,7 @@
                     </div>
                   </div>
                 </li>
-                
+<li style="display: none;" class="boxes" id="elmComponents">
+   <?php AutoIncludeFiles('menu/items/javascript'); ?>
+</li>
+</ul>
